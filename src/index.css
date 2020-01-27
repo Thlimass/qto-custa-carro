@@ -5,10 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #fbfbfb;
 }
+.titulo-formulario{
+  font-weight: bold;
+  margin-top: 20px;
 
+}
 .formulario-marca{
   margin: 5px;
+}
+
+.resultado-pesquisa{
+  max-width: 700px;
+  margin: 0;
+  padding: 0 0px;
+}
+
+.resultado-pesquisa {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.resultado-pesquisa p {
+  font-size: 16px;
+  color: #282c34;
+  margin-top: 5px;
+  line-height: 24px;
 }
 
 code {

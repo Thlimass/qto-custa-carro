@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2717635-502e-4894-8314-f79f3e5371a4" name="Default Changelist" comment="atualizando header">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="d2717635-502e-4894-8314-f79f3e5371a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +82,7 @@
       <updated>1580054613503</updated>
       <workItem from="1580054614720" duration="39536000" />
       <workItem from="1580122770047" duration="988000" />
-      <workItem from="1580124143918" duration="962000" />
+      <workItem from="1580124143918" duration="3477000" />
     </task>
     <task id="LOCAL-00001" summary="criando projeto com react.js">
       <created>1580055131042</created>
@@ -120,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580095422089</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Documentando o projeto">
+      <created>1580125149068</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580125149068</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +151,7 @@
     <MESSAGE value="criando o componente de modelo e passando por parametro a marca selecionada" />
     <MESSAGE value="exibindo as informacoes do carro selecionado" />
     <MESSAGE value="atualizando header" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualizando header" />
+    <MESSAGE value="Documentando o projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Documentando o projeto" />
   </component>
 </project>

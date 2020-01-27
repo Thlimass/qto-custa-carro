@@ -16,7 +16,7 @@ export default class Main extends Component {
         anoSelecionado: number,
         versaoSelecionada: string,
 
-        fipe : number
+        valorFipe: number
     };
 
     componentDidMount() {
@@ -47,7 +47,6 @@ export default class Main extends Component {
         this.state.anoSelecionado = event.target.value;
         const response = await api.get('/brands/' + this.state.marcaSelecionada + '/models/' + this.state.modeloSelecionado + '/years/' + this.state.anoSelecionado + '/versions');
         this.setState({versions: response.data});
-        console.log(this.state.versions)
     };
 
     loadCarro = async (event) => {
@@ -55,8 +54,6 @@ export default class Main extends Component {
         this.state.versionId = versionString.substring(versionString.indexOf("-") + 2);
         const response = await api.get('/brands/' + this.state.marcaSelecionada + '/models/' + this.state.modeloSelecionado + '/years/' + this.state.anoSelecionado + '/versions/' + this.state.versionId);
         this.setState({carro: response.data});
-        console.log(this.state.carro)
-
     };
 
     render() {
@@ -64,7 +61,7 @@ export default class Main extends Component {
             <div className="formulario-marca">
 
                 {/*Componente que seleciona o marca*/}
-                <h3>Selecione a marca</h3>
+                <div className="titulo-formulario">Selecione a marca</div>
                 <select onChange={this.loadModels} className="brands-list">{this.state.brands.map(brand => (
                     <option key={brand}>{brand}</option>
                 ))}
@@ -72,7 +69,7 @@ export default class Main extends Component {
                 <br/>
 
                 {/*Componente que seleciona o modelo*/}
-                <h3>Selecione o modelo</h3>
+                <div className="titulo-formulario">Selecione o modelo</div>
                 <select onClick={this.loadYears} className="models-list">{this.state.models.map(model => (
                     <option key={model}>{model}</option>
                 ))}
@@ -80,26 +77,28 @@ export default class Main extends Component {
                 <br/>
 
                 {/*Componente que seleciona o ano*/}
-                <h3>Selecione o ano</h3>
-                <select onChange={this.loadVersions} className="years-list">{this.state.years.map((year,index) => (
+                <div className="titulo-formulario">Selecione o ano</div>
+                <select onChange={this.loadVersions} className="years-list">{this.state.years.map((year, index) => (
                     <option key={index}>{year}</option>
                 ))}
                 </select>
                 <br/>
 
                 {/*Componente que seleciona a versao*/}
-                <h3>Selecione a versão</h3>
+                <div className="titulo-formulario">Selecione a versão</div>
 
                 <select onClick={this.loadCarro} className="versions-list">{this.state.versions.map(version => (
                     <option>{version.version} - {version.versionId}</option>
                 ))}
                 </select>
                 <br/>
-
-                <h3>Resultado da pesquisa</h3>
-                <h4>FIPE : {this.state.carro.precoFipe}</h4>
-                <h4>MINIMO : {this.state.carro.precoMinimo}</h4>
-                <h4>MAXIMO : {this.state.carro.precoMaximo}</h4>
+                <br/>
+                <div className="resultado-pesquisa">
+                    <h3>Resultado da pesquisa</h3>
+                    <div>VALOR FIPE : {this.state.carro.precoFipe}</div>
+                    <div>VALOR MÍNIMO : {this.state.carro.precoMinimo}</div>
+                    <div>VALOR MÁXIMO : {this.state.carro.precoMaximo}</div>
+                </div>
             </div>
         )
     }
