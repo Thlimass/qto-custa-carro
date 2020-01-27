@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2717635-502e-4894-8314-f79f3e5371a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580054613503</updated>
-      <workItem from="1580054614720" duration="35832000" />
+      <workItem from="1580054614720" duration="36821000" />
     </task>
     <task id="LOCAL-00001" summary="criando projeto com react.js">
       <created>1580055131042</created>
@@ -103,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580072767178</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="exibindo as informacoes do carro selecionado">
+      <created>1580094420373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580094420373</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +130,7 @@
     <MESSAGE value="criando projeto com react.js" />
     <MESSAGE value="criando serviço das brands." />
     <MESSAGE value="criando o componente de modelo e passando por parametro a marca selecionada" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando o componente de modelo e passando por parametro a marca selecionada" />
+    <MESSAGE value="exibindo as informacoes do carro selecionado" />
+    <option name="LAST_COMMIT_MESSAGE" value="exibindo as informacoes do carro selecionado" />
   </component>
 </project>
