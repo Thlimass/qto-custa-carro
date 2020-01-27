@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2717635-502e-4894-8314-f79f3e5371a4" name="Default Changelist" comment="" />
+    <list default="true" id="d2717635-502e-4894-8314-f79f3e5371a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +82,7 @@
       <workItem from="1580054614720" duration="39536000" />
       <workItem from="1580122770047" duration="988000" />
       <workItem from="1580124143918" duration="4230000" />
-      <workItem from="1580131317755" duration="1543000" />
+      <workItem from="1580131317755" duration="1888000" />
     </task>
     <task id="LOCAL-00001" summary="criando projeto com react.js">
       <created>1580055131042</created>
@@ -137,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580132874196</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Alterando documentação do projeto">
+      <created>1580132991755</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580132991755</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

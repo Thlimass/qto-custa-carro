@@ -2,7 +2,7 @@
 ## Projeto Volanty - Quanto custa o meu carro?
 
 
-##`Clonar o projeto`
+## `Clonar o projeto`
 git clone https://github.com/Thlimass/qto-custa-carro.git
 
 
