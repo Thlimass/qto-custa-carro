@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2717635-502e-4894-8314-f79f3e5371a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580054613503</updated>
-      <workItem from="1580054614720" duration="17321000" />
+      <workItem from="1580054614720" duration="35832000" />
     </task>
     <task id="LOCAL-00001" summary="criando projeto com react.js">
       <created>1580055131042</created>
@@ -100,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580061257817</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="criando o componente de modelo e passando por parametro a marca selecionada">
+      <created>1580072767178</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580072767178</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criando projeto com react.js" />
     <MESSAGE value="criando serviço das brands." />
-    <option name="LAST_COMMIT_MESSAGE" value="criando serviço das brands." />
+    <MESSAGE value="criando o componente de modelo e passando por parametro a marca selecionada" />
+    <option name="LAST_COMMIT_MESSAGE" value="criando o componente de modelo e passando por parametro a marca selecionada" />
   </component>
 </project>
