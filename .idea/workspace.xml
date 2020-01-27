@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2717635-502e-4894-8314-f79f3e5371a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,7 +81,7 @@
       <workItem from="1580054614720" duration="39536000" />
       <workItem from="1580122770047" duration="988000" />
       <workItem from="1580124143918" duration="4230000" />
-      <workItem from="1580131317755" duration="1888000" />
+      <workItem from="1580131317755" duration="2132000" />
     </task>
     <task id="LOCAL-00001" summary="criando projeto com react.js">
       <created>1580055131042</created>
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580132991755</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Alterando documentação do projeto - parte 02">
+      <created>1580133363630</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580133363630</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +182,7 @@
     <MESSAGE value="Melhorando a aparência o projeto" />
     <MESSAGE value="Melhorando a aparência do projeto" />
     <MESSAGE value="Alterando documentação do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterando documentação do projeto" />
+    <MESSAGE value="Alterando documentação do projeto - parte 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterando documentação do projeto - parte 02" />
   </component>
 </project>
