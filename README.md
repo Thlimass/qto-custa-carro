@@ -1,6 +1,6 @@
 
 ## Projeto Volanty - Quanto custa o meu carro?
-Temos uma mobile first desenvolvida para o usuário que deseja saber o valor do seu veículo.
+Temos uma interface mobile first desenvolvida para o usuário que deseja saber o valor do seu veículo.
 Na tela o usuário seleciona a marca, modelo, ano e versão do veículo.
 Automaticamente gera o resultado da pesquisa com o valor da Fipe, valor mínimo e máximo.
 
